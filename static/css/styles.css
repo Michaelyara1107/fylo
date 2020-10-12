@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+.header-logo {
+  width: 90px;
+}
+.header-menu {
+  list-style: none;
+}
+.header-menu li {
+  display: inline-block;
+  margin-right: 1.5em;
+}
+.header-menu li:last-of-type {
+  margin-right: 0;
+}
+
+.hero {
+  text-align: center;
+}
+.hero-img {
+  max-width: 100%;
+  width: 90%;
+  margin: 0 auto;
+}
+.hero-titulo {
+  font-size: 1.9em;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.hero-p {
+  color: #e2e2e2;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+.hero-button {
+  width: 80%;
+  font-size: 1.2em;
+  margin: 0 auto;
+  background: #6767f8;
+  padding: 1em 0;
+  border: none;
+  border-radius: 2em;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(to right, #65e2d9, #339ecc);
+  margin-top: 1.3em;
+}
+
+body {
+  background: #181f2a;
+  font-size: 14px;
+  color: #dddddd;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+.container {
+  padding: 2.5em 2em;
+}
+
+.blue-header {
+  background: #1c2431;
+  background-image: url("../images/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 0;
+}
+
+.u-space-bottom {
+  margin-bottom: 4em;
+}
+
+.content {
+  padding-top: 0;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
