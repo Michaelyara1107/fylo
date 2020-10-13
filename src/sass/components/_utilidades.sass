@@ -4,6 +4,8 @@
   color: $white
   font-weight: 700
   line-height: 1.5
+  font-family: 'Raleway', sans-serif
+
 
 @mixin button($fontSize, $width, $marginTop)
   width: $width
@@ -17,3 +19,14 @@
   color: $white
   background: linear-gradient(to right, $cyan, $blue)
   margin-top: $marginTop
+  font-family: 'Raleway', sans-serif
+
+@mixin parrafo($fontSize)
+  color: #e2e2e2
+  font-size: $fontSize
+  line-height: 1.5
+
+@mixin ilustracion( $width: 90%)
+  max-width: 100%
+  width: $width
+  margin: 0 auto

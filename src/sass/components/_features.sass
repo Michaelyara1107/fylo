@@ -1,0 +1,33 @@
+.features
+  margin-bottom: 8em
+  article
+    margin-top: 8em
+    &:first-of-type
+      margin-top: 12em
+    h2
+      @include titulo(1.3em)
+    p
+      @include parrafo(1.1em)
+
+.feature2
+  text-align: left
+  margin-bottom: 6em
+  &-img
+    @include ilustracion()
+  &-titulo
+    @include titulo(1.3em)
+    text-align: left
+  &-p
+    @include parrafo(1.1em)
+  &-link
+    display: flex
+    align-items: center
+    text-decoration: none
+    color: $cyan
+    img
+      width: 20px
+      margin-left: 5px
+  &-enlace
+    display: inline-flex
+    padding-bottom: .4em
+    border-bottom: 1px solid $cyan

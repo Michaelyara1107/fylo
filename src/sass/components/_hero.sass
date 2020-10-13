@@ -1,15 +1,11 @@
 .hero
   text-align: center
   &-img
-    max-width: 100%
-    width: 90%
-    margin: 0 auto
+    @include ilustracion()
   &-titulo
     @include titulo(1.9em)
   &-p
-    color: #e2e2e2
-    font-size: 1.2em
-    line-height: 1.5
+    @include parrafo(1.1em)
   &-button
     @include button(1.2em, 80%, 1.3em)
 
